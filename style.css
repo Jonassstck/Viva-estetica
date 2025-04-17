@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #ffffff 16.62%, #5f8679 85.61% );
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 200px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-menu-item {
+    background-color: #cf4880;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2F2325;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho-menu-item:hover {
+    background-color: #e46499;
+    transform: scale(1.1);
+    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #df658e;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e76da0;
+    font-weight: 400;
+    font-size: 64px;
+    margin-left: 40px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e76993;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #e666a6;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px #ca3e7840;
+    border-radius: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2F2325;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #d8bfa9;
+    transform: scale(1.1);
+    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+    border-radius: 200px;
+    padding: 25px;
+}
+
+.texto-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e76f9d;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.descricao-servico {
+    font-size: 20px;
+    color: #e76099;
+    text-align: center;
+    margin-top: 8px;
+    line-height: 1.5;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #e75bb9;
+    padding-top: 48px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e74d8d;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.container-medicos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card-medico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    text-align: center;
+}
+
+.conteudo-secundario-imagem {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e759b1;
+    font-weight: 450;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.formulario {
+    margin-top: 60px;
+    padding: 60px 30px;
+    background-color: #2F2325;
+    color: #e75cb2;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formulario-titulo {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.formulario-subtitulo {
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.formulario-campos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.formulario-campos input {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.formulario-campos button {
+    background-color: #ECD6C4;
+    color: #2F2325;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario-campos button:hover {
+    background-color: #d8bfa9;
+    transform: scale(1.05);
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+    margin-top: 40px;
+}
+
+.rodape-imagem {
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+}
